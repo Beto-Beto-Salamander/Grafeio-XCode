@@ -1,0 +1,6 @@
+framework module Pods_GrafeioTests {
+  umbrella header "Pods-GrafeioTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

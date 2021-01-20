@@ -1,0 +1,1194 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DC25B786D59FE2DBC405D0D /* Pods_GrafeioTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013F20240EAFAF0E7C770749 /* Pods_GrafeioTests.framework */; };
+		A0115DF1A66992D0F335F3EB /* Pods_Grafeio_GrafeioUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 566B5273DF97E8087F9CABBA /* Pods_Grafeio_GrafeioUITests.framework */; };
+		C485083F3A3B0DB9AD91540D /* Pods_Grafeio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8D34D99D8E269D288EACAB /* Pods_Grafeio.framework */; };
+		F90D06DC256D0BA700FC9366 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90D06DB256D0BA700FC9366 /* HomeScreen.swift */; };
+		F90D06E2256D100C00FC9366 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90D06E1256D100C00FC9366 /* Employee.swift */; };
+		F90D06ED256D10A500FC9366 /* Province.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90D06E6256D10A500FC9366 /* Province.swift */; };
+		F90D06EE256D10A500FC9366 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90D06E7256D10A500FC9366 /* Product.swift */; };
+		F90D06EF256D10A500FC9366 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90D06E8256D10A500FC9366 /* Customer.swift */; };
+		F90D06F0256D10A500FC9366 /* ProductPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90D06E9256D10A500FC9366 /* ProductPhoto.swift */; };
+		F90D06F1256D10A500FC9366 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90D06EA256D10A500FC9366 /* Category.swift */; };
+		F90D06F2256D10A500FC9366 /* Supplier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90D06EB256D10A500FC9366 /* Supplier.swift */; };
+		F90D06F3256D10A500FC9366 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90D06EC256D10A500FC9366 /* City.swift */; };
+		F91CB10925738E5A00CDBCB2 /* DeleteProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91CB10825738E5A00CDBCB2 /* DeleteProduct.swift */; };
+		F92D47F1257EC1F000575377 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92D47F0257EC1F000575377 /* ImagePicker.swift */; };
+		F92D47F6257ED57500575377 /* PostPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92D47F5257ED57500575377 /* PostPhoto.swift */; };
+		F9394EF9256F8B2700E23796 /* ProductPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9394EF8256F8B2700E23796 /* ProductPage.swift */; };
+		F9394EFE256FBF4D00E23796 /* GetProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9394EFD256FBF4D00E23796 /* GetProduct.swift */; };
+		F93F8686256C002D00DEFC2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93F8685256C002D00DEFC2E /* AppDelegate.swift */; };
+		F93F8688256C002D00DEFC2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93F8687256C002D00DEFC2E /* SceneDelegate.swift */; };
+		F93F868A256C002D00DEFC2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93F8689256C002D00DEFC2E /* ContentView.swift */; };
+		F93F868D256C002D00DEFC2E /* Grafeio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F93F868B256C002D00DEFC2E /* Grafeio.xcdatamodeld */; };
+		F93F868F256C003000DEFC2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F93F868E256C003000DEFC2E /* Assets.xcassets */; };
+		F93F8692256C003000DEFC2E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F93F8691256C003000DEFC2E /* Preview Assets.xcassets */; };
+		F93F8695256C003000DEFC2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F93F8693256C003000DEFC2E /* LaunchScreen.storyboard */; };
+		F93F86A0256C003000DEFC2E /* GrafeioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93F869F256C003000DEFC2E /* GrafeioTests.swift */; };
+		F93F86AB256C003000DEFC2E /* GrafeioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93F86AA256C003000DEFC2E /* GrafeioUITests.swift */; };
+		F9627D082574C5A000A844D2 /* GetPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627D072574C5A000A844D2 /* GetPhoto.swift */; };
+		F9627D122574DA5A00A844D2 /* GetEmployee.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627D112574DA5A00A844D2 /* GetEmployee.swift */; };
+		F9627D172574DA6800A844D2 /* PostEmployee.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627D162574DA6800A844D2 /* PostEmployee.swift */; };
+		F9627D1C2574DA7400A844D2 /* EditEmployee.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627D1B2574DA7400A844D2 /* EditEmployee.swift */; };
+		F9627D212574DA7F00A844D2 /* DeleteEmployee.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627D202574DA7F00A844D2 /* DeleteEmployee.swift */; };
+		F9627D262574DA8C00A844D2 /* GetCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627D252574DA8C00A844D2 /* GetCustomer.swift */; };
+		F9627D2B2574DA9900A844D2 /* PostCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627D2A2574DA9900A844D2 /* PostCustomer.swift */; };
+		F9627D302574DAA600A844D2 /* EditCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627D2F2574DAA600A844D2 /* EditCustomer.swift */; };
+		F9627D352574DAB000A844D2 /* DeleteCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627D342574DAB000A844D2 /* DeleteCustomer.swift */; };
+		F9627D3A2574DABB00A844D2 /* GetCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627D392574DABB00A844D2 /* GetCity.swift */; };
+		F9627D3F2574DACC00A844D2 /* PostCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627D3E2574DACC00A844D2 /* PostCity.swift */; };
+		F9627D442574DAD600A844D2 /* EditCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627D432574DAD600A844D2 /* EditCity.swift */; };
+		F9627D492574DAE000A844D2 /* DeleteCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627D482574DAE000A844D2 /* DeleteCity.swift */; };
+		F9627D4E2574DAEC00A844D2 /* GetProvince.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627D4D2574DAEC00A844D2 /* GetProvince.swift */; };
+		F9627D532574DAFC00A844D2 /* PostProvince.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627D522574DAFC00A844D2 /* PostProvince.swift */; };
+		F9627D582574DB0700A844D2 /* EditProvince.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627D572574DB0700A844D2 /* EditProvince.swift */; };
+		F9627D5D2574DB1400A844D2 /* DeleteProvince.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627D5C2574DB1400A844D2 /* DeleteProvince.swift */; };
+		F9627D622574DB2700A844D2 /* GetSupplier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627D612574DB2700A844D2 /* GetSupplier.swift */; };
+		F9627D672574DB3000A844D2 /* PostSupplier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627D662574DB3000A844D2 /* PostSupplier.swift */; };
+		F9627D6C2574DB3B00A844D2 /* EditSupplier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627D6B2574DB3B00A844D2 /* EditSupplier.swift */; };
+		F9627D712574DB5000A844D2 /* DeleteSupplier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627D702574DB5000A844D2 /* DeleteSupplier.swift */; };
+		F9627D892574DCBF00A844D2 /* GetCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627D882574DCBF00A844D2 /* GetCategory.swift */; };
+		F9627D8E2574DCCC00A844D2 /* PostCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627D8D2574DCCC00A844D2 /* PostCategory.swift */; };
+		F9627D932574DCD600A844D2 /* EditCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627D922574DCD600A844D2 /* EditCategory.swift */; };
+		F9627D982574DCE100A844D2 /* DeleteCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627D972574DCE100A844D2 /* DeleteCategory.swift */; };
+		F9627D9E2574DE4500A844D2 /* CategoryPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627D9D2574DE4500A844D2 /* CategoryPage.swift */; };
+		F9627DAB2574E11700A844D2 /* PostCategoryPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627DAA2574E11700A844D2 /* PostCategoryPage.swift */; };
+		F9627DB02574E12600A844D2 /* EditCategoryPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627DAF2574E12600A844D2 /* EditCategoryPage.swift */; };
+		F9627DB52574F75700A844D2 /* ShowDetailProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627DB42574F75700A844D2 /* ShowDetailProduct.swift */; };
+		F9627DC925752DC900A844D2 /* ShowDetailCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627DC825752DC900A844D2 /* ShowDetailCategory.swift */; };
+		F9627DEB257571B700A844D2 /* EmployeePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627DEA257571B700A844D2 /* EmployeePage.swift */; };
+		F9627DF0257571D300A844D2 /* EditEmployeePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627DEF257571D300A844D2 /* EditEmployeePage.swift */; };
+		F9627DF5257571DE00A844D2 /* PostEmployeePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627DF4257571DE00A844D2 /* PostEmployeePage.swift */; };
+		F9627DFA257571EC00A844D2 /* ShowDetailEmployee.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627DF9257571EC00A844D2 /* ShowDetailEmployee.swift */; };
+		F9627DFF2575720C00A844D2 /* CustomerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627DFE2575720C00A844D2 /* CustomerPage.swift */; };
+		F9627E042575721900A844D2 /* EditCustomerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627E032575721900A844D2 /* EditCustomerPage.swift */; };
+		F9627E092575724900A844D2 /* PostCustomerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627E082575724900A844D2 /* PostCustomerPage.swift */; };
+		F9627E112575725700A844D2 /* ShowDetailCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627E102575725700A844D2 /* ShowDetailCustomer.swift */; };
+		F9627E162575727000A844D2 /* CityPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627E152575727000A844D2 /* CityPage.swift */; };
+		F9627E1B2575729200A844D2 /* PostCityPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627E1A2575729200A844D2 /* PostCityPage.swift */; };
+		F9627E202575729E00A844D2 /* EditCityPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627E1F2575729E00A844D2 /* EditCityPage.swift */; };
+		F9627E25257572AC00A844D2 /* ShowDetailCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627E24257572AC00A844D2 /* ShowDetailCity.swift */; };
+		F9627E2A257572BB00A844D2 /* ProvincePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627E29257572BB00A844D2 /* ProvincePage.swift */; };
+		F9627E2F257572C700A844D2 /* PostProvincePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627E2E257572C600A844D2 /* PostProvincePage.swift */; };
+		F9627E34257572D200A844D2 /* EditProvincePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627E33257572D200A844D2 /* EditProvincePage.swift */; };
+		F9627E39257572DE00A844D2 /* ShowDetailProvince.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627E38257572DE00A844D2 /* ShowDetailProvince.swift */; };
+		F9627E3E257572ED00A844D2 /* SupplierPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627E3D257572ED00A844D2 /* SupplierPage.swift */; };
+		F9627E43257572FA00A844D2 /* PostSupplierPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627E42257572FA00A844D2 /* PostSupplierPage.swift */; };
+		F9627E482575730400A844D2 /* EditSupplierPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627E472575730400A844D2 /* EditSupplierPage.swift */; };
+		F9627E4D2575731200A844D2 /* ShowDetailSupplier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9627E4C2575731200A844D2 /* ShowDetailSupplier.swift */; };
+		F97FEFEB2572460B007FDA34 /* PostProductPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97FEFEA2572460B007FDA34 /* PostProductPage.swift */; };
+		F9DBB9B5257181CD003AE20F /* PostProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DBB9B4257181CD003AE20F /* PostProduct.swift */; };
+		F9DBB9BA257181E1003AE20F /* EditProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DBB9B9257181E1003AE20F /* EditProduct.swift */; };
+		F9F53CB92570357800579D54 /* EditProductPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F53CB82570357800579D54 /* EditProductPage.swift */; };
+		F9F8FBD7256D5C6E0099D023 /* UserAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F8FBD6256D5C6E0099D023 /* UserAuth.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F93F869C256C003000DEFC2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F93F867A256C002D00DEFC2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F93F8681256C002D00DEFC2E;
+			remoteInfo = Grafeio;
+		};
+		F93F86A7256C003000DEFC2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F93F867A256C002D00DEFC2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F93F8681256C002D00DEFC2E;
+			remoteInfo = Grafeio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		013F20240EAFAF0E7C770749 /* Pods_GrafeioTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrafeioTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		566B5273DF97E8087F9CABBA /* Pods_Grafeio_GrafeioUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grafeio_GrafeioUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E8D34D99D8E269D288EACAB /* Pods_Grafeio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grafeio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7767108EED69927615042F19 /* Pods-GrafeioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrafeioTests.release.xcconfig"; path = "Target Support Files/Pods-GrafeioTests/Pods-GrafeioTests.release.xcconfig"; sourceTree = "<group>"; };
+		A841D84B29B6F170A6201B4B /* Pods-Grafeio-GrafeioUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grafeio-GrafeioUITests.debug.xcconfig"; path = "Target Support Files/Pods-Grafeio-GrafeioUITests/Pods-Grafeio-GrafeioUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BDB7CF9DA8EA8661FE427140 /* Pods-Grafeio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grafeio.release.xcconfig"; path = "Target Support Files/Pods-Grafeio/Pods-Grafeio.release.xcconfig"; sourceTree = "<group>"; };
+		C323801607F2EB8A49CA5A4A /* Pods-Grafeio-GrafeioUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grafeio-GrafeioUITests.release.xcconfig"; path = "Target Support Files/Pods-Grafeio-GrafeioUITests/Pods-Grafeio-GrafeioUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DC19D5F98EF78717CA539DDC /* Pods-Grafeio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grafeio.debug.xcconfig"; path = "Target Support Files/Pods-Grafeio/Pods-Grafeio.debug.xcconfig"; sourceTree = "<group>"; };
+		E210EFB314BC6286A6AC8488 /* Pods-GrafeioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrafeioTests.debug.xcconfig"; path = "Target Support Files/Pods-GrafeioTests/Pods-GrafeioTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F90D06DB256D0BA700FC9366 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		F90D06E1256D100C00FC9366 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		F90D06E6256D10A500FC9366 /* Province.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Province.swift; sourceTree = "<group>"; };
+		F90D06E7256D10A500FC9366 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		F90D06E8256D10A500FC9366 /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		F90D06E9256D10A500FC9366 /* ProductPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductPhoto.swift; sourceTree = "<group>"; };
+		F90D06EA256D10A500FC9366 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		F90D06EB256D10A500FC9366 /* Supplier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Supplier.swift; sourceTree = "<group>"; };
+		F90D06EC256D10A500FC9366 /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		F91CB10825738E5A00CDBCB2 /* DeleteProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteProduct.swift; sourceTree = "<group>"; };
+		F92D47F0257EC1F000575377 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		F92D47F5257ED57500575377 /* PostPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostPhoto.swift; sourceTree = "<group>"; };
+		F9394EF8256F8B2700E23796 /* ProductPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductPage.swift; sourceTree = "<group>"; };
+		F9394EFD256FBF4D00E23796 /* GetProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetProduct.swift; sourceTree = "<group>"; };
+		F93F8682256C002D00DEFC2E /* Grafeio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grafeio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F93F8685256C002D00DEFC2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F93F8687256C002D00DEFC2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F93F8689256C002D00DEFC2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F93F868C256C002D00DEFC2E /* Grafeio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Grafeio.xcdatamodel; sourceTree = "<group>"; };
+		F93F868E256C003000DEFC2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F93F8691256C003000DEFC2E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F93F8694256C003000DEFC2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F93F8696256C003000DEFC2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F93F869B256C003000DEFC2E /* GrafeioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrafeioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F93F869F256C003000DEFC2E /* GrafeioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrafeioTests.swift; sourceTree = "<group>"; };
+		F93F86A1256C003000DEFC2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F93F86A6256C003000DEFC2E /* GrafeioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrafeioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F93F86AA256C003000DEFC2E /* GrafeioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrafeioUITests.swift; sourceTree = "<group>"; };
+		F93F86AC256C003000DEFC2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9627D072574C5A000A844D2 /* GetPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPhoto.swift; sourceTree = "<group>"; };
+		F9627D112574DA5A00A844D2 /* GetEmployee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetEmployee.swift; sourceTree = "<group>"; };
+		F9627D162574DA6800A844D2 /* PostEmployee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEmployee.swift; sourceTree = "<group>"; };
+		F9627D1B2574DA7400A844D2 /* EditEmployee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEmployee.swift; sourceTree = "<group>"; };
+		F9627D202574DA7F00A844D2 /* DeleteEmployee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteEmployee.swift; sourceTree = "<group>"; };
+		F9627D252574DA8C00A844D2 /* GetCustomer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCustomer.swift; sourceTree = "<group>"; };
+		F9627D2A2574DA9900A844D2 /* PostCustomer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCustomer.swift; sourceTree = "<group>"; };
+		F9627D2F2574DAA600A844D2 /* EditCustomer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCustomer.swift; sourceTree = "<group>"; };
+		F9627D342574DAB000A844D2 /* DeleteCustomer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteCustomer.swift; sourceTree = "<group>"; };
+		F9627D392574DABB00A844D2 /* GetCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCity.swift; sourceTree = "<group>"; };
+		F9627D3E2574DACC00A844D2 /* PostCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCity.swift; sourceTree = "<group>"; };
+		F9627D432574DAD600A844D2 /* EditCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCity.swift; sourceTree = "<group>"; };
+		F9627D482574DAE000A844D2 /* DeleteCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteCity.swift; sourceTree = "<group>"; };
+		F9627D4D2574DAEC00A844D2 /* GetProvince.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetProvince.swift; sourceTree = "<group>"; };
+		F9627D522574DAFC00A844D2 /* PostProvince.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostProvince.swift; sourceTree = "<group>"; };
+		F9627D572574DB0700A844D2 /* EditProvince.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProvince.swift; sourceTree = "<group>"; };
+		F9627D5C2574DB1400A844D2 /* DeleteProvince.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteProvince.swift; sourceTree = "<group>"; };
+		F9627D612574DB2700A844D2 /* GetSupplier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetSupplier.swift; sourceTree = "<group>"; };
+		F9627D662574DB3000A844D2 /* PostSupplier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostSupplier.swift; sourceTree = "<group>"; };
+		F9627D6B2574DB3B00A844D2 /* EditSupplier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditSupplier.swift; sourceTree = "<group>"; };
+		F9627D702574DB5000A844D2 /* DeleteSupplier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteSupplier.swift; sourceTree = "<group>"; };
+		F9627D882574DCBF00A844D2 /* GetCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCategory.swift; sourceTree = "<group>"; };
+		F9627D8D2574DCCC00A844D2 /* PostCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCategory.swift; sourceTree = "<group>"; };
+		F9627D922574DCD600A844D2 /* EditCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCategory.swift; sourceTree = "<group>"; };
+		F9627D972574DCE100A844D2 /* DeleteCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteCategory.swift; sourceTree = "<group>"; };
+		F9627D9D2574DE4500A844D2 /* CategoryPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPage.swift; sourceTree = "<group>"; };
+		F9627DAA2574E11700A844D2 /* PostCategoryPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCategoryPage.swift; sourceTree = "<group>"; };
+		F9627DAF2574E12600A844D2 /* EditCategoryPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCategoryPage.swift; sourceTree = "<group>"; };
+		F9627DB42574F75700A844D2 /* ShowDetailProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailProduct.swift; sourceTree = "<group>"; };
+		F9627DC825752DC900A844D2 /* ShowDetailCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailCategory.swift; sourceTree = "<group>"; };
+		F9627DEA257571B700A844D2 /* EmployeePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeePage.swift; sourceTree = "<group>"; };
+		F9627DEF257571D300A844D2 /* EditEmployeePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEmployeePage.swift; sourceTree = "<group>"; };
+		F9627DF4257571DE00A844D2 /* PostEmployeePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEmployeePage.swift; sourceTree = "<group>"; };
+		F9627DF9257571EC00A844D2 /* ShowDetailEmployee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailEmployee.swift; sourceTree = "<group>"; };
+		F9627DFE2575720C00A844D2 /* CustomerPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerPage.swift; sourceTree = "<group>"; };
+		F9627E032575721900A844D2 /* EditCustomerPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCustomerPage.swift; sourceTree = "<group>"; };
+		F9627E082575724900A844D2 /* PostCustomerPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCustomerPage.swift; sourceTree = "<group>"; };
+		F9627E102575725700A844D2 /* ShowDetailCustomer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailCustomer.swift; sourceTree = "<group>"; };
+		F9627E152575727000A844D2 /* CityPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityPage.swift; sourceTree = "<group>"; };
+		F9627E1A2575729200A844D2 /* PostCityPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCityPage.swift; sourceTree = "<group>"; };
+		F9627E1F2575729E00A844D2 /* EditCityPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCityPage.swift; sourceTree = "<group>"; };
+		F9627E24257572AC00A844D2 /* ShowDetailCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailCity.swift; sourceTree = "<group>"; };
+		F9627E29257572BB00A844D2 /* ProvincePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvincePage.swift; sourceTree = "<group>"; };
+		F9627E2E257572C600A844D2 /* PostProvincePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostProvincePage.swift; sourceTree = "<group>"; };
+		F9627E33257572D200A844D2 /* EditProvincePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProvincePage.swift; sourceTree = "<group>"; };
+		F9627E38257572DE00A844D2 /* ShowDetailProvince.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailProvince.swift; sourceTree = "<group>"; };
+		F9627E3D257572ED00A844D2 /* SupplierPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupplierPage.swift; sourceTree = "<group>"; };
+		F9627E42257572FA00A844D2 /* PostSupplierPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostSupplierPage.swift; sourceTree = "<group>"; };
+		F9627E472575730400A844D2 /* EditSupplierPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditSupplierPage.swift; sourceTree = "<group>"; };
+		F9627E4C2575731200A844D2 /* ShowDetailSupplier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailSupplier.swift; sourceTree = "<group>"; };
+		F97FEFEA2572460B007FDA34 /* PostProductPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostProductPage.swift; sourceTree = "<group>"; };
+		F9DBB9B4257181CD003AE20F /* PostProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostProduct.swift; sourceTree = "<group>"; };
+		F9DBB9B9257181E1003AE20F /* EditProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProduct.swift; sourceTree = "<group>"; };
+		F9F53CB82570357800579D54 /* EditProductPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProductPage.swift; sourceTree = "<group>"; };
+		F9F8FBD6256D5C6E0099D023 /* UserAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuth.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F93F867F256C002D00DEFC2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C485083F3A3B0DB9AD91540D /* Pods_Grafeio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F93F8698256C003000DEFC2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC25B786D59FE2DBC405D0D /* Pods_GrafeioTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F93F86A3256C003000DEFC2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0115DF1A66992D0F335F3EB /* Pods_Grafeio_GrafeioUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B02A89AEFEBED0FD7B0DD13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E8D34D99D8E269D288EACAB /* Pods_Grafeio.framework */,
+				566B5273DF97E8087F9CABBA /* Pods_Grafeio_GrafeioUITests.framework */,
+				013F20240EAFAF0E7C770749 /* Pods_GrafeioTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6FD5A584A6413DE62ACDC9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC19D5F98EF78717CA539DDC /* Pods-Grafeio.debug.xcconfig */,
+				BDB7CF9DA8EA8661FE427140 /* Pods-Grafeio.release.xcconfig */,
+				A841D84B29B6F170A6201B4B /* Pods-Grafeio-GrafeioUITests.debug.xcconfig */,
+				C323801607F2EB8A49CA5A4A /* Pods-Grafeio-GrafeioUITests.release.xcconfig */,
+				E210EFB314BC6286A6AC8488 /* Pods-GrafeioTests.debug.xcconfig */,
+				7767108EED69927615042F19 /* Pods-GrafeioTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F90D06E0256D0FEE00FC9366 /* JsonData */ = {
+			isa = PBXGroup;
+			children = (
+				F90D06EA256D10A500FC9366 /* Category.swift */,
+				F90D06EC256D10A500FC9366 /* City.swift */,
+				F90D06E8256D10A500FC9366 /* Customer.swift */,
+				F90D06E1256D100C00FC9366 /* Employee.swift */,
+				F90D06E7256D10A500FC9366 /* Product.swift */,
+				F90D06E9256D10A500FC9366 /* ProductPhoto.swift */,
+				F90D06E6256D10A500FC9366 /* Province.swift */,
+				F90D06EB256D10A500FC9366 /* Supplier.swift */,
+			);
+			path = JsonData;
+			sourceTree = "<group>";
+		};
+		F9394EF7256F8B1700E23796 /* Master */ = {
+			isa = PBXGroup;
+			children = (
+				F9627D9C2574DE3500A844D2 /* Category */,
+				F9627DE22575669100A844D2 /* City */,
+				F9627DE02575668300A844D2 /* Customer */,
+				F9627DE12575668900A844D2 /* Employee */,
+				F97FEFE9257245F4007FDA34 /* Product */,
+				F9627DE32575669800A844D2 /* Province */,
+				F9627DDF2575667B00A844D2 /* Supplier */,
+			);
+			path = Master;
+			sourceTree = "<group>";
+		};
+		F9394F02256FBF5200E23796 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				F9394EFD256FBF4D00E23796 /* GetProduct.swift */,
+				F9DBB9B4257181CD003AE20F /* PostProduct.swift */,
+				F9DBB9B9257181E1003AE20F /* EditProduct.swift */,
+				F91CB10825738E5A00CDBCB2 /* DeleteProduct.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		F93F8679256C002D00DEFC2E = {
+			isa = PBXGroup;
+			children = (
+				F93F8684256C002D00DEFC2E /* Grafeio */,
+				F93F869E256C003000DEFC2E /* GrafeioTests */,
+				F93F86A9256C003000DEFC2E /* GrafeioUITests */,
+				F93F8683256C002D00DEFC2E /* Products */,
+				A6FD5A584A6413DE62ACDC9E /* Pods */,
+				2B02A89AEFEBED0FD7B0DD13 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F93F8683256C002D00DEFC2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F93F8682256C002D00DEFC2E /* Grafeio.app */,
+				F93F869B256C003000DEFC2E /* GrafeioTests.xctest */,
+				F93F86A6256C003000DEFC2E /* GrafeioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F93F8684256C002D00DEFC2E /* Grafeio */ = {
+			isa = PBXGroup;
+			children = (
+				F9394EF7256F8B1700E23796 /* Master */,
+				F953E9A0256E3EE900A85A05 /* API */,
+				F90D06E0256D0FEE00FC9366 /* JsonData */,
+				F93F8685256C002D00DEFC2E /* AppDelegate.swift */,
+				F93F8687256C002D00DEFC2E /* SceneDelegate.swift */,
+				F93F8689256C002D00DEFC2E /* ContentView.swift */,
+				F93F868E256C003000DEFC2E /* Assets.xcassets */,
+				F93F8693256C003000DEFC2E /* LaunchScreen.storyboard */,
+				F93F8696256C003000DEFC2E /* Info.plist */,
+				F93F868B256C002D00DEFC2E /* Grafeio.xcdatamodeld */,
+				F93F8690256C003000DEFC2E /* Preview Content */,
+				F90D06DB256D0BA700FC9366 /* HomeScreen.swift */,
+				F92D47F0257EC1F000575377 /* ImagePicker.swift */,
+			);
+			path = Grafeio;
+			sourceTree = "<group>";
+		};
+		F93F8690256C003000DEFC2E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F93F8691256C003000DEFC2E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F93F869E256C003000DEFC2E /* GrafeioTests */ = {
+			isa = PBXGroup;
+			children = (
+				F93F869F256C003000DEFC2E /* GrafeioTests.swift */,
+				F93F86A1256C003000DEFC2E /* Info.plist */,
+			);
+			path = GrafeioTests;
+			sourceTree = "<group>";
+		};
+		F93F86A9256C003000DEFC2E /* GrafeioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F93F86AA256C003000DEFC2E /* GrafeioUITests.swift */,
+				F93F86AC256C003000DEFC2E /* Info.plist */,
+			);
+			path = GrafeioUITests;
+			sourceTree = "<group>";
+		};
+		F953E9A0256E3EE900A85A05 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				F9627D872574DCAB00A844D2 /* Category */,
+				F9627D0E2574D94200A844D2 /* City */,
+				F9627D0D2574D93800A844D2 /* Customer */,
+				F9627D0C2574D93000A844D2 /* Employee */,
+				F9394F02256FBF5200E23796 /* Product */,
+				F9627D062574C58A00A844D2 /* ProductPhoto */,
+				F9627D0F2574D94A00A844D2 /* Province */,
+				F9627D102574D97A00A844D2 /* Supplier */,
+				F9F8FBD6256D5C6E0099D023 /* UserAuth.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		F9627D062574C58A00A844D2 /* ProductPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				F9627D072574C5A000A844D2 /* GetPhoto.swift */,
+				F92D47F5257ED57500575377 /* PostPhoto.swift */,
+			);
+			path = ProductPhoto;
+			sourceTree = "<group>";
+		};
+		F9627D0C2574D93000A844D2 /* Employee */ = {
+			isa = PBXGroup;
+			children = (
+				F9627D112574DA5A00A844D2 /* GetEmployee.swift */,
+				F9627D162574DA6800A844D2 /* PostEmployee.swift */,
+				F9627D1B2574DA7400A844D2 /* EditEmployee.swift */,
+				F9627D202574DA7F00A844D2 /* DeleteEmployee.swift */,
+			);
+			path = Employee;
+			sourceTree = "<group>";
+		};
+		F9627D0D2574D93800A844D2 /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				F9627D252574DA8C00A844D2 /* GetCustomer.swift */,
+				F9627D2A2574DA9900A844D2 /* PostCustomer.swift */,
+				F9627D2F2574DAA600A844D2 /* EditCustomer.swift */,
+				F9627D342574DAB000A844D2 /* DeleteCustomer.swift */,
+			);
+			path = Customer;
+			sourceTree = "<group>";
+		};
+		F9627D0E2574D94200A844D2 /* City */ = {
+			isa = PBXGroup;
+			children = (
+				F9627D392574DABB00A844D2 /* GetCity.swift */,
+				F9627D3E2574DACC00A844D2 /* PostCity.swift */,
+				F9627D432574DAD600A844D2 /* EditCity.swift */,
+				F9627D482574DAE000A844D2 /* DeleteCity.swift */,
+			);
+			path = City;
+			sourceTree = "<group>";
+		};
+		F9627D0F2574D94A00A844D2 /* Province */ = {
+			isa = PBXGroup;
+			children = (
+				F9627D4D2574DAEC00A844D2 /* GetProvince.swift */,
+				F9627D522574DAFC00A844D2 /* PostProvince.swift */,
+				F9627D572574DB0700A844D2 /* EditProvince.swift */,
+				F9627D5C2574DB1400A844D2 /* DeleteProvince.swift */,
+			);
+			path = Province;
+			sourceTree = "<group>";
+		};
+		F9627D102574D97A00A844D2 /* Supplier */ = {
+			isa = PBXGroup;
+			children = (
+				F9627D612574DB2700A844D2 /* GetSupplier.swift */,
+				F9627D662574DB3000A844D2 /* PostSupplier.swift */,
+				F9627D6B2574DB3B00A844D2 /* EditSupplier.swift */,
+				F9627D702574DB5000A844D2 /* DeleteSupplier.swift */,
+			);
+			path = Supplier;
+			sourceTree = "<group>";
+		};
+		F9627D872574DCAB00A844D2 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F9627D882574DCBF00A844D2 /* GetCategory.swift */,
+				F9627D8D2574DCCC00A844D2 /* PostCategory.swift */,
+				F9627D922574DCD600A844D2 /* EditCategory.swift */,
+				F9627D972574DCE100A844D2 /* DeleteCategory.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F9627D9C2574DE3500A844D2 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F9627D9D2574DE4500A844D2 /* CategoryPage.swift */,
+				F9627DAF2574E12600A844D2 /* EditCategoryPage.swift */,
+				F9627DAA2574E11700A844D2 /* PostCategoryPage.swift */,
+				F9627DC825752DC900A844D2 /* ShowDetailCategory.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F9627DDF2575667B00A844D2 /* Supplier */ = {
+			isa = PBXGroup;
+			children = (
+				F9627E3D257572ED00A844D2 /* SupplierPage.swift */,
+				F9627E42257572FA00A844D2 /* PostSupplierPage.swift */,
+				F9627E472575730400A844D2 /* EditSupplierPage.swift */,
+				F9627E4C2575731200A844D2 /* ShowDetailSupplier.swift */,
+			);
+			path = Supplier;
+			sourceTree = "<group>";
+		};
+		F9627DE02575668300A844D2 /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				F9627DFE2575720C00A844D2 /* CustomerPage.swift */,
+				F9627E032575721900A844D2 /* EditCustomerPage.swift */,
+				F9627E082575724900A844D2 /* PostCustomerPage.swift */,
+				F9627E102575725700A844D2 /* ShowDetailCustomer.swift */,
+			);
+			path = Customer;
+			sourceTree = "<group>";
+		};
+		F9627DE12575668900A844D2 /* Employee */ = {
+			isa = PBXGroup;
+			children = (
+				F9627DEA257571B700A844D2 /* EmployeePage.swift */,
+				F9627DEF257571D300A844D2 /* EditEmployeePage.swift */,
+				F9627DF4257571DE00A844D2 /* PostEmployeePage.swift */,
+				F9627DF9257571EC00A844D2 /* ShowDetailEmployee.swift */,
+			);
+			path = Employee;
+			sourceTree = "<group>";
+		};
+		F9627DE22575669100A844D2 /* City */ = {
+			isa = PBXGroup;
+			children = (
+				F9627E152575727000A844D2 /* CityPage.swift */,
+				F9627E1A2575729200A844D2 /* PostCityPage.swift */,
+				F9627E1F2575729E00A844D2 /* EditCityPage.swift */,
+				F9627E24257572AC00A844D2 /* ShowDetailCity.swift */,
+			);
+			path = City;
+			sourceTree = "<group>";
+		};
+		F9627DE32575669800A844D2 /* Province */ = {
+			isa = PBXGroup;
+			children = (
+				F9627E29257572BB00A844D2 /* ProvincePage.swift */,
+				F9627E2E257572C600A844D2 /* PostProvincePage.swift */,
+				F9627E33257572D200A844D2 /* EditProvincePage.swift */,
+				F9627E38257572DE00A844D2 /* ShowDetailProvince.swift */,
+			);
+			path = Province;
+			sourceTree = "<group>";
+		};
+		F97FEFE9257245F4007FDA34 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				F9394EF8256F8B2700E23796 /* ProductPage.swift */,
+				F9F53CB82570357800579D54 /* EditProductPage.swift */,
+				F97FEFEA2572460B007FDA34 /* PostProductPage.swift */,
+				F9627DB42574F75700A844D2 /* ShowDetailProduct.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F93F8681256C002D00DEFC2E /* Grafeio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F93F86AF256C003000DEFC2E /* Build configuration list for PBXNativeTarget "Grafeio" */;
+			buildPhases = (
+				5797F27D4FECEEBA33DB413D /* [CP] Check Pods Manifest.lock */,
+				F93F867E256C002D00DEFC2E /* Sources */,
+				F93F867F256C002D00DEFC2E /* Frameworks */,
+				F93F8680256C002D00DEFC2E /* Resources */,
+				3AB75EF1B7BDD15AF9FC30C5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Grafeio;
+			productName = Grafeio;
+			productReference = F93F8682256C002D00DEFC2E /* Grafeio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F93F869A256C003000DEFC2E /* GrafeioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F93F86B2256C003000DEFC2E /* Build configuration list for PBXNativeTarget "GrafeioTests" */;
+			buildPhases = (
+				D165269F7066084DC1037170 /* [CP] Check Pods Manifest.lock */,
+				F93F8697256C003000DEFC2E /* Sources */,
+				F93F8698256C003000DEFC2E /* Frameworks */,
+				F93F8699256C003000DEFC2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F93F869D256C003000DEFC2E /* PBXTargetDependency */,
+			);
+			name = GrafeioTests;
+			productName = GrafeioTests;
+			productReference = F93F869B256C003000DEFC2E /* GrafeioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F93F86A5256C003000DEFC2E /* GrafeioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F93F86B5256C003000DEFC2E /* Build configuration list for PBXNativeTarget "GrafeioUITests" */;
+			buildPhases = (
+				80931CC2E8D9151F1181DC3C /* [CP] Check Pods Manifest.lock */,
+				F93F86A2256C003000DEFC2E /* Sources */,
+				F93F86A3256C003000DEFC2E /* Frameworks */,
+				F93F86A4256C003000DEFC2E /* Resources */,
+				A0D21C91501D144BE005D1C4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F93F86A8256C003000DEFC2E /* PBXTargetDependency */,
+			);
+			name = GrafeioUITests;
+			productName = GrafeioUITests;
+			productReference = F93F86A6256C003000DEFC2E /* GrafeioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F93F867A256C002D00DEFC2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					F93F8681256C002D00DEFC2E = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					F93F869A256C003000DEFC2E = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = F93F8681256C002D00DEFC2E;
+					};
+					F93F86A5256C003000DEFC2E = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = F93F8681256C002D00DEFC2E;
+					};
+				};
+			};
+			buildConfigurationList = F93F867D256C002D00DEFC2E /* Build configuration list for PBXProject "Grafeio" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F93F8679256C002D00DEFC2E;
+			productRefGroup = F93F8683256C002D00DEFC2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F93F8681256C002D00DEFC2E /* Grafeio */,
+				F93F869A256C003000DEFC2E /* GrafeioTests */,
+				F93F86A5256C003000DEFC2E /* GrafeioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F93F8680256C002D00DEFC2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93F8695256C003000DEFC2E /* LaunchScreen.storyboard in Resources */,
+				F93F8692256C003000DEFC2E /* Preview Assets.xcassets in Resources */,
+				F93F868F256C003000DEFC2E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F93F8699256C003000DEFC2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F93F86A4256C003000DEFC2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AB75EF1B7BDD15AF9FC30C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Grafeio/Pods-Grafeio-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Grafeio/Pods-Grafeio-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Grafeio/Pods-Grafeio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5797F27D4FECEEBA33DB413D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Grafeio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80931CC2E8D9151F1181DC3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Grafeio-GrafeioUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0D21C91501D144BE005D1C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Grafeio-GrafeioUITests/Pods-Grafeio-GrafeioUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Grafeio-GrafeioUITests/Pods-Grafeio-GrafeioUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Grafeio-GrafeioUITests/Pods-Grafeio-GrafeioUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D165269F7066084DC1037170 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GrafeioTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F93F867E256C002D00DEFC2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9627DF5257571DE00A844D2 /* PostEmployeePage.swift in Sources */,
+				F9627E482575730400A844D2 /* EditSupplierPage.swift in Sources */,
+				F9627D982574DCE100A844D2 /* DeleteCategory.swift in Sources */,
+				F9627E1B2575729200A844D2 /* PostCityPage.swift in Sources */,
+				F92D47F6257ED57500575377 /* PostPhoto.swift in Sources */,
+				F9627D352574DAB000A844D2 /* DeleteCustomer.swift in Sources */,
+				F9627D8E2574DCCC00A844D2 /* PostCategory.swift in Sources */,
+				F9627D4E2574DAEC00A844D2 /* GetProvince.swift in Sources */,
+				F9627DB02574E12600A844D2 /* EditCategoryPage.swift in Sources */,
+				F9627D622574DB2700A844D2 /* GetSupplier.swift in Sources */,
+				F9394EF9256F8B2700E23796 /* ProductPage.swift in Sources */,
+				F9627DB52574F75700A844D2 /* ShowDetailProduct.swift in Sources */,
+				F9627D2B2574DA9900A844D2 /* PostCustomer.swift in Sources */,
+				F9627DF0257571D300A844D2 /* EditEmployeePage.swift in Sources */,
+				F9F8FBD7256D5C6E0099D023 /* UserAuth.swift in Sources */,
+				F93F8686256C002D00DEFC2E /* AppDelegate.swift in Sources */,
+				F9627D172574DA6800A844D2 /* PostEmployee.swift in Sources */,
+				F9627E34257572D200A844D2 /* EditProvincePage.swift in Sources */,
+				F9627E112575725700A844D2 /* ShowDetailCustomer.swift in Sources */,
+				F9627D9E2574DE4500A844D2 /* CategoryPage.swift in Sources */,
+				F9627E2F257572C700A844D2 /* PostProvincePage.swift in Sources */,
+				F91CB10925738E5A00CDBCB2 /* DeleteProduct.swift in Sources */,
+				F92D47F1257EC1F000575377 /* ImagePicker.swift in Sources */,
+				F9627E4D2575731200A844D2 /* ShowDetailSupplier.swift in Sources */,
+				F9627D302574DAA600A844D2 /* EditCustomer.swift in Sources */,
+				F9627D3F2574DACC00A844D2 /* PostCity.swift in Sources */,
+				F9627DC925752DC900A844D2 /* ShowDetailCategory.swift in Sources */,
+				F9DBB9BA257181E1003AE20F /* EditProduct.swift in Sources */,
+				F90D06F2256D10A500FC9366 /* Supplier.swift in Sources */,
+				F9627D582574DB0700A844D2 /* EditProvince.swift in Sources */,
+				F9627E162575727000A844D2 /* CityPage.swift in Sources */,
+				F9627E43257572FA00A844D2 /* PostSupplierPage.swift in Sources */,
+				F9627E092575724900A844D2 /* PostCustomerPage.swift in Sources */,
+				F9627E042575721900A844D2 /* EditCustomerPage.swift in Sources */,
+				F9627D712574DB5000A844D2 /* DeleteSupplier.swift in Sources */,
+				F9F53CB92570357800579D54 /* EditProductPage.swift in Sources */,
+				F90D06EE256D10A500FC9366 /* Product.swift in Sources */,
+				F90D06E2256D100C00FC9366 /* Employee.swift in Sources */,
+				F9627D3A2574DABB00A844D2 /* GetCity.swift in Sources */,
+				F9627D532574DAFC00A844D2 /* PostProvince.swift in Sources */,
+				F9627D1C2574DA7400A844D2 /* EditEmployee.swift in Sources */,
+				F9627E25257572AC00A844D2 /* ShowDetailCity.swift in Sources */,
+				F9627D082574C5A000A844D2 /* GetPhoto.swift in Sources */,
+				F9DBB9B5257181CD003AE20F /* PostProduct.swift in Sources */,
+				F90D06ED256D10A500FC9366 /* Province.swift in Sources */,
+				F90D06DC256D0BA700FC9366 /* HomeScreen.swift in Sources */,
+				F93F868D256C002D00DEFC2E /* Grafeio.xcdatamodeld in Sources */,
+				F9627D492574DAE000A844D2 /* DeleteCity.swift in Sources */,
+				F97FEFEB2572460B007FDA34 /* PostProductPage.swift in Sources */,
+				F9627E39257572DE00A844D2 /* ShowDetailProvince.swift in Sources */,
+				F9627D122574DA5A00A844D2 /* GetEmployee.swift in Sources */,
+				F90D06EF256D10A500FC9366 /* Customer.swift in Sources */,
+				F9627D262574DA8C00A844D2 /* GetCustomer.swift in Sources */,
+				F9627DAB2574E11700A844D2 /* PostCategoryPage.swift in Sources */,
+				F9627D932574DCD600A844D2 /* EditCategory.swift in Sources */,
+				F93F8688256C002D00DEFC2E /* SceneDelegate.swift in Sources */,
+				F9627E2A257572BB00A844D2 /* ProvincePage.swift in Sources */,
+				F9627DFA257571EC00A844D2 /* ShowDetailEmployee.swift in Sources */,
+				F9627D672574DB3000A844D2 /* PostSupplier.swift in Sources */,
+				F9627E3E257572ED00A844D2 /* SupplierPage.swift in Sources */,
+				F9627DFF2575720C00A844D2 /* CustomerPage.swift in Sources */,
+				F90D06F0256D10A500FC9366 /* ProductPhoto.swift in Sources */,
+				F9627DEB257571B700A844D2 /* EmployeePage.swift in Sources */,
+				F9627D892574DCBF00A844D2 /* GetCategory.swift in Sources */,
+				F9394EFE256FBF4D00E23796 /* GetProduct.swift in Sources */,
+				F9627D6C2574DB3B00A844D2 /* EditSupplier.swift in Sources */,
+				F93F868A256C002D00DEFC2E /* ContentView.swift in Sources */,
+				F9627D442574DAD600A844D2 /* EditCity.swift in Sources */,
+				F90D06F3256D10A500FC9366 /* City.swift in Sources */,
+				F9627D5D2574DB1400A844D2 /* DeleteProvince.swift in Sources */,
+				F9627D212574DA7F00A844D2 /* DeleteEmployee.swift in Sources */,
+				F9627E202575729E00A844D2 /* EditCityPage.swift in Sources */,
+				F90D06F1256D10A500FC9366 /* Category.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F93F8697256C003000DEFC2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93F86A0256C003000DEFC2E /* GrafeioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F93F86A2256C003000DEFC2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93F86AB256C003000DEFC2E /* GrafeioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F93F869D256C003000DEFC2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F93F8681256C002D00DEFC2E /* Grafeio */;
+			targetProxy = F93F869C256C003000DEFC2E /* PBXContainerItemProxy */;
+		};
+		F93F86A8256C003000DEFC2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F93F8681256C002D00DEFC2E /* Grafeio */;
+			targetProxy = F93F86A7256C003000DEFC2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F93F8693256C003000DEFC2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F93F8694256C003000DEFC2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F93F86AD256C003000DEFC2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F93F86AE256C003000DEFC2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F93F86B0256C003000DEFC2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC19D5F98EF78717CA539DDC /* Pods-Grafeio.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Grafeio/Preview Content\"";
+				DEVELOPMENT_TEAM = X5JS4LR33P;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Grafeio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PPTA.Grafeio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F93F86B1256C003000DEFC2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDB7CF9DA8EA8661FE427140 /* Pods-Grafeio.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Grafeio/Preview Content\"";
+				DEVELOPMENT_TEAM = X5JS4LR33P;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Grafeio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PPTA.Grafeio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F93F86B3256C003000DEFC2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E210EFB314BC6286A6AC8488 /* Pods-GrafeioTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5JS4LR33P;
+				INFOPLIST_FILE = GrafeioTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PPTA.GrafeioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grafeio.app/Grafeio";
+			};
+			name = Debug;
+		};
+		F93F86B4256C003000DEFC2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7767108EED69927615042F19 /* Pods-GrafeioTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5JS4LR33P;
+				INFOPLIST_FILE = GrafeioTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PPTA.GrafeioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grafeio.app/Grafeio";
+			};
+			name = Release;
+		};
+		F93F86B6256C003000DEFC2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A841D84B29B6F170A6201B4B /* Pods-Grafeio-GrafeioUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5JS4LR33P;
+				INFOPLIST_FILE = GrafeioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PPTA.GrafeioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Grafeio;
+			};
+			name = Debug;
+		};
+		F93F86B7256C003000DEFC2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C323801607F2EB8A49CA5A4A /* Pods-Grafeio-GrafeioUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5JS4LR33P;
+				INFOPLIST_FILE = GrafeioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PPTA.GrafeioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Grafeio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F93F867D256C002D00DEFC2E /* Build configuration list for PBXProject "Grafeio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F93F86AD256C003000DEFC2E /* Debug */,
+				F93F86AE256C003000DEFC2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F93F86AF256C003000DEFC2E /* Build configuration list for PBXNativeTarget "Grafeio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F93F86B0256C003000DEFC2E /* Debug */,
+				F93F86B1256C003000DEFC2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F93F86B2256C003000DEFC2E /* Build configuration list for PBXNativeTarget "GrafeioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F93F86B3256C003000DEFC2E /* Debug */,
+				F93F86B4256C003000DEFC2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F93F86B5256C003000DEFC2E /* Build configuration list for PBXNativeTarget "GrafeioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F93F86B6256C003000DEFC2E /* Debug */,
+				F93F86B7256C003000DEFC2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F93F868B256C002D00DEFC2E /* Grafeio.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F93F868C256C002D00DEFC2E /* Grafeio.xcdatamodel */,
+			);
+			currentVersion = F93F868C256C002D00DEFC2E /* Grafeio.xcdatamodel */;
+			path = Grafeio.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F93F867A256C002D00DEFC2E /* Project object */;
+}
